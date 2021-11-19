@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap")
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+body{
+   font-family: "Sofia",sans-serif;
+  line-height: 1.5;
+}
+
+
+#header{
+  display:flex;
+}
+
+#nav-bar{
+  position:fixed;
+  top:0px;
+  display:flex;
+  width:100%;
+  justify-content:space-between;
+ }
+
+#container{
+  max-width:960px;
+  margin:2rem auto 0;
+  overflow:hidden;
+}
+
+.logo{
+  width:200px;
+  height:auto;
+  cursor:pointer;
+}
+
+@media(min-width:1200px){
+  body{
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+.btn{
+  display:inline-block;
+  padding:0.4rem 1.5rem;
+  color:rgba(0, 0, 0, 0.85);
+  background-color:rgba(0, 255, 255, 0.58);
+  width:30%;
+}
+
+.nav-link{
+  float:left;
+  display:block;
+  color:#000000;
+  text-align:center;
+  padding:14px 14px;
+  font-size:17px;
+  align-items:center;
+  background-color:rgba(255, 255, 255, 0.32);
+   overflow: hidden;
+   
+}
+
+
+.message-box{
+  margin:1.5rem;
+  padding:0.8rem;
+  text-align:center;
+}
+
+.message-box h1{
+  font-size:1.6rem;
+  margin-bottom:1rem;
+}
+
+.message-box input{
+ display:block;
+  margin:auto;
+  width:30%;
+  padding:0.4rem;
+  margin-bottom:1rem;
+  
+}
+
+#features{
+  padding:1rem;
+  margin-top:3rem;
+  margin-bottom:3rem;
+  display:flex;
+  flex-direction:column;
+}
+
+.feature{
+  display:flex;
+  justify-self:left;
+  align-items:center;
+}
+
+.feature div {
+  padding: 1rem;
+  margin-left: 3rem;
+}
+.feature div h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+#tutorial{
+  padding:3rem;
+  margin:auto;
+  text-align:center;
+}
+
+#video{
+  width:600px;
+  height:340px;
+}
+
+#contacts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 0.2rem
+}
+
+.contacts{
+  border: solid #333 3px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.contacts:first-child{
+  margin-right:1.2rem;
+}
+
+.contacts:last-child{
+  margin-left:1.2rem;
+}
+
+.contacts h2{
+  background-color: #dd;
+  font-size: 1.05rem;
+  padding: 1rem;
+}
+
+.contacts h3{
+  padding:1rem;
+}
+
+contacts p{
+  padding: 0 4rem 1rem;
+}
+
+.btn{
+  display:inline-block;
+  margin:1rem;
+}
