@@ -158,3 +158,15 @@ contacts p{
   display:inline-block;
   margin:1rem;
 }
+#footer{
+  background-color:#ccc;
+  padding:1rem 4rem;
+  margin-top:2rem;
+  display:flex;
+  justify-content:space-between;
+  overflow:hidden:
+}
+footer div a {
+  color: #333;
+  padding: 0.5rem 1rem;
+}
